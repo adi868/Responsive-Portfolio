@@ -55,6 +55,7 @@ h2, h3 {
     color: #ffffff;
     background: #ffffff;
     border-bottom: 2px solid #cccccc;
+    padding-right: 50px;
 }
 
 #logo {
@@ -211,23 +212,33 @@ input[type=submit] {
         width: 70%;
         float: left;
         padding-left: 40px;
+        
     }
     #masthead {
         width: 100%;
-        padding-left: 40px;
-        width: 980px;
-        padding-right: 50px;
-
+        padding-left: 30px;
+        width: 960px;
     }
     footer{
         width: 100%
     }
-
-   img{
+    
+    .work{
         width: 100%;
-        height: auto;
-      }
+    }
+    .work {
+        width: 47%;
+        margin-bottom: 10px;
 
+    }
+    .work:nth-child(even) {
+        margin-right: 0;
+
+    }
+
+    .work:nth-child(odd){
+        float:right;
+    }
     
 
 }
@@ -244,28 +255,49 @@ input[type=submit] {
         padding-left: 40px;
         padding-right: 40px;
         margin: 0 auto;
+        
     }
     
     footer{
         width: 100%
     }
    
-   img{
+   /* img{
         width: 100%;
         height: auto;
-      }
+      } */
+    .work {
+        width: 47%;
+        margin-bottom: 10px;
+
+    }
+    .work:nth-child(even) {
+        margin-right: 0;
+
+    }
+
+    .work:nth-child(odd){
+        float:right;
+    }
+    
+    .auth-image {
+        width: 50%;
+    }
 } 
+
 
 @media screen and (max-width: 640px) {
 
+
+
     #name{
         float: left;
-        width:100%;
         position: relative;
         left: 140px;
-       
+        width:100%;
         
     }
+
     .clearfix{
         clear: both;
     } 
@@ -282,6 +314,15 @@ input[type=submit] {
       right:70px;
       margin: 50px;
   }
-      
+
+  .auth-image {
+    width: 100%;
+  }
+  .work {
+    width: 100%;
+    margin-bottom: 10px;
+    
+}
+
 }
 
